@@ -16,12 +16,12 @@
               "sku": "2019-datacenter-smalldisk",
               "version": "latest"
             },
-            "nodePlacementConfiguration":{
+            "nodePlacementConfiguration": {
               "policy": "Zonal"
             },
             "nodeAgentSkuId": "batch.node.windows amd64",
-            "windowsConfiguration":{
-              "enableAutomaticUpdates":false
+            "windowsConfiguration": {
+              "enableAutomaticUpdates": false
             }
           }
         },
@@ -31,7 +31,7 @@
             "targetLowPriorityNodes": 0
           }
         },
-        "upgradePolicy":{
+        "upgradePolicy": {
           "mode": "automatic",
           "automaticOSUpgradePolicy": {
             "disableAutomaticRollback": true,
@@ -39,7 +39,7 @@
             "useRollingUpgradePolicy": true,
             "osRollingUpgradeDeferral": true
           },
-          "rollingUpgradePolicy":{
+          "rollingUpgradePolicy": {
             "enableCrossZoneUpgrade": true,
             "maxBatchInstancePercent": 20,
             "maxUnhealthyInstancePercent": 20,
@@ -108,7 +108,7 @@
           "currentDedicatedNodes": 0,
           "currentLowPriorityNodes": 0,
           "upgradePolicy": {
-            "mode": "Automatic",
+            "mode": "automatic",
             "automaticOSUpgradePolicy": {
               "disableAutomaticRollback": true,
               "enableAutomaticOSUpgrade": true,

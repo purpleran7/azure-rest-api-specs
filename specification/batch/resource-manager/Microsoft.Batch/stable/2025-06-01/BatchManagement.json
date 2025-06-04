@@ -4991,7 +4991,7 @@
     "TaskSchedulingPolicy": {
       "type": "object",
       "properties": {
-        "jobDefaultOrder":{
+        "jobDefaultOrder": {
           "type": "string",
           "default": "None",
           "title": "The order for scheduling tasks from different jobs with the same priority.",
@@ -5658,7 +5658,7 @@
             "$ref": "#/definitions/IpTag"
           },
           "title": "IP Tags that will applied to new Public IPs that Batch creates."
-         }
+        }
       },
       "description": "The public IP Address configuration of the networking configuration of a Pool."
     },
