@@ -63,7 +63,7 @@
             "currentLowPriorityNodes": 0,
             "currentNodeCommunicationMode": "Classic",
             "upgradePolicy": {
-              "mode": "Automatic",
+              "mode": "automatic",
               "automaticOSUpgradePolicy": {
                 "disableAutomaticRollback": true,
                 "enableAutomaticOSUpgrade": true,

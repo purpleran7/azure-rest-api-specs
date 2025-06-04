@@ -19,7 +19,7 @@
             "nodePlacementConfiguration":{
               "policy": "Zonal"
             },
-            "nodeAgentSKUId": "batch.node.windows amd64",
+            "nodeAgentSkuId": "batch.node.windows amd64",
             "windowsConfiguration":{
               "enableAutomaticUpdates":false
             }
@@ -32,7 +32,7 @@
           }
         },
         "upgradePolicy":{
-          "mode": "Automatic",
+          "mode": "automatic",
           "automaticOSUpgradePolicy": {
             "disableAutomaticRollback": true,
             "enableAutomaticOSUpgrade": true,

@@ -18,7 +18,7 @@
             "osDisk": {
               "diskSizeGB": 100,
               "managedDisk": {
-                "storageAccountType": "standardssd_lrs"
+                "storageAccountType": "StandardSSD_LRS"
               },
               "caching": "ReadWrite",
               "writeAcceleratorEnabled": false

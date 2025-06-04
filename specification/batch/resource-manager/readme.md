@@ -35,7 +35,7 @@ tag: package-2025-06
 
 These settings apply only when `--tag=package-2025-06` is specified on the command line.
 
-```yaml $(tag) == 'package-2024-07'
+```yaml $(tag) == 'package-2025-06'
 input-file:
   - Microsoft.Batch/stable/2025-06-01/BatchManagement.json
   - Microsoft.Batch/stable/2025-06-01/NetworkSecurityPerimeter.json

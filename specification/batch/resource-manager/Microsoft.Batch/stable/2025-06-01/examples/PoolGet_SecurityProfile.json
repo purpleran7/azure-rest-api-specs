@@ -39,7 +39,7 @@
               },
               "nodeAgentSkuId": "batch.node.ubuntu 24.04",
               "securityProfile": {
-                "securityType": "TrustedLaunch",
+                "securityType": "trustedLaunch",
                 "encryptionAtHost": true,
                 "uefiSettings": {
                   "vTpmEnabled": false
