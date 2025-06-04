@@ -4993,7 +4993,6 @@
       "properties": {
         "jobDefaultOrder": {
           "type": "string",
-          "default": "None",
           "title": "The order for scheduling tasks from different jobs with the same priority.",
           "description": "If not specified, the default is none.",
           "enum": [
