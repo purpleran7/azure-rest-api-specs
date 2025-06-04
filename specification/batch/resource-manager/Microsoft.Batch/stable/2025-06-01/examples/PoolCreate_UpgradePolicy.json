@@ -4,7 +4,7 @@
     "resourceGroupName": "default-azurebatch-japaneast",
     "accountName": "sampleacct",
     "poolName": "testpool",
-    "api-version": "2024-07-01",
+    "api-version": "2025-06-01",
     "parameters": {
       "properties": {
         "vmSize": "Standard_d4s_v3",
@@ -16,12 +16,12 @@
               "sku": "2019-datacenter-smalldisk",
               "version": "latest"
             },
-            "nodePlacementConfiguration": {
+            "nodePlacementConfiguration":{
               "policy": "Zonal"
             },
-            "nodeAgentSkuId": "batch.node.windows amd64",
-            "windowsConfiguration": {
-              "enableAutomaticUpdates": false
+            "nodeAgentSKUId": "batch.node.windows amd64",
+            "windowsConfiguration":{
+              "enableAutomaticUpdates":false
             }
           }
         },
@@ -31,15 +31,15 @@
             "targetLowPriorityNodes": 0
           }
         },
-        "upgradePolicy": {
-          "mode": "automatic",
+        "upgradePolicy":{
+          "mode": "Automatic",
           "automaticOSUpgradePolicy": {
             "disableAutomaticRollback": true,
             "enableAutomaticOSUpgrade": true,
             "useRollingUpgradePolicy": true,
             "osRollingUpgradeDeferral": true
           },
-          "rollingUpgradePolicy": {
+          "rollingUpgradePolicy":{
             "enableCrossZoneUpgrade": true,
             "maxBatchInstancePercent": 20,
             "maxUnhealthyInstancePercent": 20,
@@ -108,7 +108,7 @@
           "currentDedicatedNodes": 0,
           "currentLowPriorityNodes": 0,
           "upgradePolicy": {
-            "mode": "automatic",
+            "mode": "Automatic",
             "automaticOSUpgradePolicy": {
               "disableAutomaticRollback": true,
               "enableAutomaticOSUpgrade": true,
